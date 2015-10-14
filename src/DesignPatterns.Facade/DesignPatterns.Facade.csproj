@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{AFF7689C-9794-4A81-A0DC-EE55095B9E19}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DesignPatterns.Facade</RootNamespace>
     <AssemblyName>DesignPatterns.Facade</AssemblyName>
@@ -29,6 +29,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -39,8 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Concretas\GerenciadorDeEstoque.cs" />
+    <Compile Include="Concretas\GerenciadorDePagamento.cs" />
+    <Compile Include="Concretas\GerenciadorDeValidacaoPedido.cs" />
+    <Compile Include="Interfaces\IEstoque.cs" />
+    <Compile Include="Interfaces\IPagamento.cs" />
+    <Compile Include="Interfaces\IValidadorPedido.cs" />
+    <Compile Include="LojaOnlineFacade.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
