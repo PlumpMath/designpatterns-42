@@ -1,11 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Facade", "DesignPatterns.Facade\DesignPatterns.Facade.csproj", "{AFF7689C-9794-4A81-A0DC-EE55095B9E19}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade", "Facade", "{049D2837-7C0C-4F52-A88F-F51F6DE893DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategy", "Strategy", "{F2DF970D-C89D-48AF-A72A-231D9F7E07EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Strategy", "DesignPatterns.Strategy\DesignPatterns.Strategy.csproj", "{ED6BF13B-2B2A-4524-AF98-BAFD32AFA9A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sem Strategy", "Sem Strategy", "{F63B24A0-5562-42ED-9234-6DE732BED656}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.SemStrategy", "DesignPatterns.SemStrategy\DesignPatterns.SemStrategy.csproj", "{E4BE3C81-366F-49B0-9DCE-9949295D9AAD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,11 +25,22 @@ Global
 		{AFF7689C-9794-4A81-A0DC-EE55095B9E19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFF7689C-9794-4A81-A0DC-EE55095B9E19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFF7689C-9794-4A81-A0DC-EE55095B9E19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED6BF13B-2B2A-4524-AF98-BAFD32AFA9A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED6BF13B-2B2A-4524-AF98-BAFD32AFA9A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED6BF13B-2B2A-4524-AF98-BAFD32AFA9A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED6BF13B-2B2A-4524-AF98-BAFD32AFA9A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4BE3C81-366F-49B0-9DCE-9949295D9AAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4BE3C81-366F-49B0-9DCE-9949295D9AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4BE3C81-366F-49B0-9DCE-9949295D9AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4BE3C81-366F-49B0-9DCE-9949295D9AAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{AFF7689C-9794-4A81-A0DC-EE55095B9E19} = {049D2837-7C0C-4F52-A88F-F51F6DE893DF}
+		{ED6BF13B-2B2A-4524-AF98-BAFD32AFA9A8} = {F2DF970D-C89D-48AF-A72A-231D9F7E07EE}
+		{F63B24A0-5562-42ED-9234-6DE732BED656} = {F2DF970D-C89D-48AF-A72A-231D9F7E07EE}
+		{E4BE3C81-366F-49B0-9DCE-9949295D9AAD} = {F63B24A0-5562-42ED-9234-6DE732BED656}
 	EndGlobalSection
 EndGlobal
